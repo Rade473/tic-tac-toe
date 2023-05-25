@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Superman vs. Batman Tic-Tac-Toe</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Superman vs. Batman Tic-Tac-Toe</h1>
+  <div class="player-names">
+    <div class="player-name">
+      <img src="superman.jpg" alt="Superman Logo" class="player-image">
+      <span>Superman</span>
+    </div>
+    <div class="player-name">
+      <img src="batman.jpg" alt="Batman Logo" class="player-image" >
+      <span>Batman</span>
+    </div>
+  </div>
+  <div class="board">
+    <div class="cell" onclick="makeMove(0)"></div>
+    <div class="cell" onclick="makeMove(1)"></div>
+    <div class="cell" onclick="makeMove(2)"></div>
+    <div class="cell" onclick="makeMove(3)"></div>
+    <div class="cell" onclick="makeMove(4)"></div>
+    <div class="cell" onclick="makeMove(5)"></div>
+    <div class="cell" onclick="makeMove(6)"></div>
+    <div class="cell" onclick="makeMove(7)"></div>
+    <div class="cell" onclick="makeMove(8)"></div>
+  </div>
+  <div id="modal" class="modal">
+    
+    <div class="modal-content" id="modal-content">
+      <span class="close-button" id="close-button" onclick="closeModal()">&times;</span>
+      <!-- Modal content goes here -->
+      
+    </div>
+  </div>
+<script src="script.js"></script>
+
+</body>
+</html>
